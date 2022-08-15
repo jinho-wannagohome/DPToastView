@@ -7,7 +7,7 @@
 //
 
 #import <QuartzCore/QuartzCore.h>
-#import "DPToastView.h"
+#import "include/DPToastView/DPToastView.h"
 
 static id _DP_PreviousToastView = nil;
 

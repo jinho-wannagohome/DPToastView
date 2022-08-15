@@ -9,6 +9,8 @@ let package = Package(
         .library(name: "DPToastView", targets: ["DPToastView"]),
     ],
     targets: [
-        .target(name: "DPToastView", path: "Sources")
+        .target(name: "DPToastView",
+                path: "Sources",
+                publicHeadersPath: "include/DPToastView")
     ]
 )
